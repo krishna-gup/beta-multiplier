@@ -26,7 +26,7 @@ The beta-multiplier should be self-biased to achieve independence from the suppl
 
 # Reference Output Waveform
 
-<img width="311" alt="ReferenceOP" src="https://user-images.githubusercontent.com/83169108/155857524-4e88703a-ddb0-4d6d-82ad-c94191d9e0b2.png">
+![op](https://user-images.githubusercontent.com/83169108/155858085-f5cd85ed-ca19-4a39-a2bb-381ed9c975e2.jpg)
 
 # Implemented Circuit Schematic
 
