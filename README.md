@@ -3,6 +3,9 @@
 # Table of Contents
 
 - [Abstract](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Abstract)
+- [Tools Used](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Tools Used)
+- [Working](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Working)
+- [Reference Circuit](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Reference Circuit)
 
 # Abstract
 
