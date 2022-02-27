@@ -92,13 +92,6 @@ c9 net39 net29 c=5p
 vin net39 gnd! dc=1.8
 r20 net41 gnd! r=95k
 
-
-
-
-
-
-
-
 .dcOP
 .dc VIN lin '101' '0' '1.8' name=dc
 
@@ -108,17 +101,8 @@ r20 net41 gnd! r=95k
 
 .temp 25
 
-
-
 .option primesim_output=wdf
-
-
 .option parhier = LOCAL
-
-
-
-
-
 
 .end
 
