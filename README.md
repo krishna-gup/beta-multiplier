@@ -2,6 +2,8 @@
 
 # Table of Contents
 
+- [Abstract](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Abstract)
+
 # Abstract
 
 In this paper, I am going to design a current reference circuit using 28nm CMOS Technology. Current Reference circuits are widely used in both analog and digital designs to bias the transistor in the required region of operation.
