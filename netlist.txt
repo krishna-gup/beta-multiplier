@@ -1,0 +1,59 @@
+*  Generated for: PrimeSim
+*  Design library name: beta_multiplier
+*  Design cell name: beta-multiplier
+*  Design view name: bmr-sch
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sun Feb 27 13:27:00 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : beta_multiplier
+* Cell             : beta-multiplier
+* View             : bmr-sch
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xm3 net21 net34 net11 vdd! p105 w=48u l=240n nf=20 m=1
+xm2 net34 net34 net7 vdd! p105 w=48u l=240n nf=20 m=1
+xm1 net7 net34 net39 vdd! p105 w=2.4u l=240n nf=1 m=1
+xm0 net11 net34 net39 vdd! p105 w=2.4u l=240n nf=1 m=1
+xm8 net29 net21 gnd! gnd! n105 w=0.6u l=240n nf=1 m=1
+xm7 net34 net29 net21 gnd! n105 w=0.6u l=240n nf=1 m=1
+xm6 net34 net21 net41 gnd! n105 w=24u l=240n nf=10 m=1
+xm4 net21 net21 gnd! gnd! n105 w=2.4u l=240n nf=1 m=1
+c9 net39 net29 c=5p
+vin net39 gnd! dc=1.8
+r20 net41 gnd! r=95k
+
+
+
+
+
+
+
+
+.dcOP
+.dc VIN lin '101' '0' '1.8' name=dc
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe dc i(r20)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+
