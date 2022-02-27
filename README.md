@@ -10,9 +10,9 @@ This complete design and implementation would be on VLSI Technology, which there
 
 # Tools Used
 
-- Synopsys Custom Compiler
-- Synopsys Prime Wave 
-- Synopsys 28nm PDK
+- Synopsys Custom Compiler: The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+- Synopsys Prime Wave: PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+- Synopsys 28nm PDK: The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Working
 
@@ -30,9 +30,27 @@ The beta-multiplier should be self-biased to achieve independence from the suppl
 
 # Implemented Circuit Schematic
 
+![sch](https://user-images.githubusercontent.com/83169108/155883470-52169baf-0160-4db0-ba28-1e50a2a2aae7.jpg)
+
+# Designed Symbol
+
+<img width="254" alt="Screenshot (274)" src="https://user-images.githubusercontent.com/83169108/155883637-a31e2342-6034-4042-a678-9035f4343347.png">
+
+# Test Bench Schematic
+
+<img width="489" alt="Screenshot (275)" src="https://user-images.githubusercontent.com/83169108/155883681-6368a406-ed9c-40c9-b2f5-6a3546ea53f6.png">
+
 # DC Analysis Parameters
 
+<img width="254" alt="Screenshot (268)" src="https://user-images.githubusercontent.com/83169108/155883538-f8de3494-8fdc-4025-a2e0-bbb9295d5230.png">
+
 # Simulated Output Waveforms
+
+<img width="345" alt="Screenshot (270)" src="https://user-images.githubusercontent.com/83169108/155883590-55ad99f1-7d5d-4ebe-b45c-e5db3b8da9c2.png">
+
+# Conclusion
+
+The referenced circuit of a Beta Multiplier, viz, a PVT Invarient Current Source has been simulated and designed successfully, and the reference waveform and the actual waveform obtained from Primewave matches. The given current reference circuit is invarient of changes in Process, Supply Voltage or Temperature variations, and produces a PTAT (Propotional to Absolute Temperature) Current.
 
 # Author
 
