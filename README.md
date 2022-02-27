@@ -3,9 +3,15 @@
 # Table of Contents
 
 - [Abstract](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Abstract)
-- [Tools Used](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Tools Used)
+- [Tools Used](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#tools-used)
 - [Working](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Working)
-- [Reference Circuit](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md/#Reference Circuit)
+- [Reference Circuit and Output](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#reference-circuit)
+- [Implementation](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#implemented-circuit-schematic)
+- [Simulation](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#dc-analysis-parameters)
+- [Conclusion](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#conclusion)
+- [Author](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#author)
+- [Acknowledgements](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#acknowledgements)
+- [References](https://github.com/krishna-gup/beta-multiplier/blob/main/README.md#references)
 
 # Abstract
 
