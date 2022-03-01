@@ -48,10 +48,6 @@ The beta-multiplier should be self-biased to achieve independence from the suppl
 
 <img width="254" alt="Screenshot (274)" src="https://user-images.githubusercontent.com/83169108/155883637-a31e2342-6034-4042-a678-9035f4343347.png">
 
-# Test Bench Schematic
-
-<img width="489" alt="Screenshot (275)" src="https://user-images.githubusercontent.com/83169108/155883681-6368a406-ed9c-40c9-b2f5-6a3546ea53f6.png">
-
 # DC Analysis Parameters
 
 <img width="254" alt="Screenshot (268)" src="https://user-images.githubusercontent.com/83169108/155883538-f8de3494-8fdc-4025-a2e0-bbb9295d5230.png">
